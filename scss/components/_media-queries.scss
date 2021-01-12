@@ -1,11 +1,13 @@
 // ============================================= */
 //              Media Queries                    */
 // ============================================= */
-@media #{$brk-narrow} {
+@media #{$brkp} {
 
     .container {
         max-width: 1400px;
-        @include center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .centered {

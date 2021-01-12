@@ -4,7 +4,7 @@
 
 * {
     font-family: $font-stack-primary;
-    color: $secondary-color;
+    color: $font-color-primary;
     box-sizing: border-box;
 }
 
@@ -24,13 +24,12 @@ a {
     &-primary {
         color: $secondary-color;
         margin-left: 10px;
-    }
 
-    &-secondary {
-        font-weight: map-get($font-weight, 'regular');
-        color: $font-color-primary;
+        &-secondary {
+            font-weight: map-get($font-weight, 'regular');
+            color: $font-color-primary;
+        }
     }
-
 }
 
 
