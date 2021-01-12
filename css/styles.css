@@ -537,6 +537,9 @@ a {
   margin-right: auto;
 }
 
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
 @media (min-width: 768px) {
   .container {
     max-width: 1400px;
@@ -549,6 +552,16 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-link {
+    flex-basis: 100px;
   }
 
   .row {
@@ -612,16 +625,6 @@ a {
 
   .col-12 {
     flex-basis: 100%;
-  }
-
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .nav-link {
-    flex-basis: 100px;
   }
 
   .btn {
