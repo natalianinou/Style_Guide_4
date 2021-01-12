@@ -1,0 +1,19 @@
+/* Error: Undefined variable.
+ *   ,
+ * 7 |     color: $color-secondary;
+ *   |            ^^^^^^^^^^^^^^^^
+ *   '
+ *   scss/base/_typography.scss 7:12  @import
+ *   scss/base/index.scss 6:9         @import
+ *   scss/styles.scss 6:9             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 7 \2502      color: $color-secondary;\a   \2502             ^^^^^^^^^^^^^^^^\a   \2575 \a   scss/base/_typography.scss 7:12  @import\a   scss/base/index.scss 6:9         @import\a   scss/styles.scss 6:9             root stylesheet";
+}
